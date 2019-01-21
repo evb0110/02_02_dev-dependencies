@@ -1,0 +1,30 @@
+{
+  "name": "02_02_dev-dependencies",
+  "version": "1.0.0",
+  "description": "installing and testing babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evb0110/02_02_dev-dependencies.git"
+  },
+  "keywords": [
+    "javascript",
+    "babel",
+    "netology"
+  ],
+  "author": "eugene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evb0110/02_02_dev-dependencies/issues"
+  },
+  "homepage": "https://github.com/evb0110/02_02_dev-dependencies#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}

@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+#c ignore babel build output dist directory
+dist
